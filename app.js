@@ -36,7 +36,7 @@ app.use('/api',apiRouter);
 /* ***************************************  E R R O R   # 4 0 4  *************************************** */
 app.all("*", (req, res) => {
     console.log("req.query", req.params);
-    res.status(404).send("PAGE NOT FOUND");
+    res.status(404).send("PAGE NOT NOT NOT FOUND");
   });
 
 
